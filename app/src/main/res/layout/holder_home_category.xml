@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/colorAccent2"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/color_gray"
+            android:text="@string/categories"/>
+
+        <TextView
+            android:id="@+id/tv_btn_see_more"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:includeFontPadding="false"
+            android:drawableTint="@color/purple_500"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            android:textColor="@color/purple_500"
+            android:text="@string/see_more"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_btn_see_more"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_special_sales"
+            app:layout_constraintTop_toBottomOf="@id/rv_categories"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/rv_special_sales"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            android:elevation="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_special_sales"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/color_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/winter_sale"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_special_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/cv_special_sales"/>
+
+
+<!--        <TextView-->
+<!--            android:textSize="20sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/rv_special_sales"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/products"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

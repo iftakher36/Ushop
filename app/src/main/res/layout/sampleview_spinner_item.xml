@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:text="@string/add_payment"
+    android:gravity="center_vertical"
+    android:paddingStart="20dp"
+    android:layout_height="?listPreferredItemHeight"
+    android:fontFamily="@font/phagspa"
+    android:textColor="@color/color_black_84"
+   />

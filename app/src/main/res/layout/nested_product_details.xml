@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_editprofile_back"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView_productCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/phagspa"
+            android:layout_marginStart="30dp"
+            android:text="B45ue98"
+            android:textColor="@color/color_orange_product_code"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_product_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/phagspab"
+            android:text="\u09f3 699.00"
+            android:textColor="@color/color_black_84"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView_delete"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+        <TextView
+            android:id="@+id/textView_product_price2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/phagspa"
+            android:text="\u09f3 899.00"
+            android:textColor="@color/color_orange_product_code"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/textView_product_price" />
+
+        <TextView
+            android:id="@+id/textView_product_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/phagspab"
+            android:text="Ladies Bag"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/checkBox_favourite"
+            app:layout_constraintStart_toStartOf="@+id/textView_productCode"
+            app:layout_constraintTop_toBottomOf="@+id/textView_productCode" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="@+id/textView_product_title"
+            app:layout_constraintTop_toBottomOf="@+id/textView_product_title">
+
+            <ImageView
+                android:id="@+id/imageView_remove"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_remove" />
+
+            <TextView
+                android:id="@+id/textView_product_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/phagspab"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView_add"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/ic_add" />
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/ratingbar_product"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:numStars="5"
+            android:progressTint="@color/color_orange"
+            android:stepSize="1"
+            android:isIndicator="true"
+            app:layout_constraintEnd_toEndOf="@+id/checkBox_favourite"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox_favourite" />
+
+        <CheckBox
+            android:id="@+id/checkBox_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:button="@drawable/selector_product_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView_product_title" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/phagspab"
+            android:text="@string/colour"
+            android:textColor="@color/color_black_84"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/textView_productCode"
+            app:layout_constraintTop_toBottomOf="@+id/textView_product_price2" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_product_colour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView35"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/phagspab"
+            android:text="@string/size"
+            android:textColor="@color/color_black_84"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView_product_colour"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView_product_colour" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_product_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView_product_colour"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/phagspab"
+            android:text="@string/productDetails"
+            android:textColor="@color/color_black_84"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/recyclerView_product_size"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView_product_size" />
+
+        <TextView
+            android:id="@+id/webView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="While the company still markets itself as a luxury brand, if you're going to shop Michael Kors you should wait for one of its many sales which often feature markdowns up to 50 percent.While the company still markets itself as a luxury brand, if you're going to shop Michael Kors you should wait for one of its many sales which often feature markdowns up to 50 percent.While the company still markets itself as a luxury brand, if you're going to shop Michael Kors you should wait for one of its many sales which often feature markdowns up to 50 percent."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView37"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_addtocart"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/color_orange"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView_buy"
+            app:layout_constraintStart_toStartOf="@+id/webView"
+            app:layout_constraintTop_toBottomOf="@+id/webView">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_cardview"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addToCart"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/phagspab"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_buy"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cardBackgroundColor="@color/color_orange"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/webView"
+            app:layout_constraintStart_toEndOf="@+id/cardView_addtocart"
+            app:layout_constraintTop_toTopOf="@+id/cardView_addtocart">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_buy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_cardview"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy"
+                    android:fontFamily="@font/phagspab"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/phagspab"
+            android:text="@string/similarProduct"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/cardView_addtocart"
+            app:layout_constraintTop_toBottomOf="@+id/cardView_addtocart" />
+
+        <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="80dp"
+            android:scrollbarThumbHorizontal="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_similar_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    tools:listitem="@layout/sampleview_product_details_similarproduct"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

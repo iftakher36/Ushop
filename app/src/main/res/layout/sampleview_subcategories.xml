@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView_sub_category"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:elevation="3dp"
+            android:src="@drawable/demo_four"
+            app:civ_border_width="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_subcategories"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:fontFamily="@font/phagspab"
+            android:text="Shirt"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/circularImageView_sub_category"
+            app:layout_constraintStart_toEndOf="@+id/circularImageView_sub_category"
+            app:layout_constraintTop_toTopOf="@+id/circularImageView_sub_category" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

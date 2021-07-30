@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ushop</string>
+    <string name="taka"> \u09F3 </string>
+    <!-- activity sign in -->
+    <string name="dont_have_account"> Don\'t have an account?</string>
+    <string name="have_account"> Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="phone">Phone</string>
+    <string name="winter_sale">Winter Sale</string>
+    <string name="Password">Password</string>
+    <string name="fPassword">Forgot Password?</string>
+    <string name="or">Or,</string>
+    <string name="profile">Profile</string>
+    <string name="products">Products</string>
+    <string name="categories">Categories</string>
+    <string name="see_more">See more</string>
+    <string name="name">Name</string>
+    <string name="terms">I agree to the policy privacy and Terms &amp; conditions</string>
+    <!--    Intro Screen-->
+    <string name="money_return">30 Day Money Return</string>
+    <string name="money_des">We want you to be satisfied, so all eligible courses purchased on Udemy can be refunded within 30 days. For whatever reason, if you are unhappy with a course, you can request a refund, provided the request meets the guidelines in our refund policy.</string>
+    <string name="delivery">Free Delivery</string>
+    <string name="delivery_des">Order grocery online with free home delivery, save money, save time.Place a qualifying order with OfficeDepot.com, and if you\'re in one of our many local delivery areas, your delivery will be FREE.</string>
+    <string name="secure">Secure Payment</string>
+    <string name="secure_des">Order grocery online with free home delivery, save money, save time.Place a qualifying order with OfficeDepot.com, and if you\'re in one of our many local delivery areas, your delivery will be FREE.</string>
+
+    <!--profile activity-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="follow">Following</string>
+    <string name="favourite">Favourites</string>
+    <string name="viewed">Viewed</string>
+    <string name="coupon">Coupons</string>
+    <string name="gift">User Gift</string>
+    <string name="review">Review</string>
+    <string name="customer">Customer</string>
+    <string name="help">Help</string>
+    <string name="payment">Payment</string>
+    <string name="ushop">Ushop wallet</string>
+    <string name="balance">Balance</string>
+    <string name="voucher">Voucher</string>
+    <string name="get">Get now</string>
+    <string name="discount">30% discount</string>
+    <string name="editprofile">Edit Profile</string>
+    <!--    editprofile activity-->
+    <string name="info">Personal Information</string>
+    <string name="edit">Edit</string>
+    <string name="names">Name</string>
+    <string name="gender">Gender</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="phones">Phone Number</string>
+    <string name="email">Email</string>
+    <!--    left side drawer-->
+    <string name="home">Home</string>
+    <string name="notify">Notifications</string>
+    <string name="setting">Settings</string>
+    <string name="contact">Contact Us</string>
+    <string name="language">Languages</string>
+    <string name="live">Live chat</string>
+    <string name="call">Call now</string>
+    <string name="logout">Logout</string>
+    <!--    ushop search-->
+    <string name="search">Search</string>
+    <string name="search_history">Search History</string>
+    <string name="searchUshop">Search in Ushop</string>
+    <string name="view_product">View Product</string>
+    <string name="checkout">Checkout</string>
+    <!--    checkout-->
+    <string name="fname">Full Name</string>
+    <string name="faddress">Full Address</string>
+    <string name="add_payment">Add Payment Method</string>
+    <string name="defaults">Set as default</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discounts">Discount</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="tax">Tax</string>
+    <string name="total">Total</string>
+    <string name="coupons">Do you have coupon?</string>
+    <string name="paymentMethod">Add Payment Method</string>
+    <!--    order completed-->
+    <string name="congratulation">Congratulation</string>
+    <string name="orderC">Your Order is completed please check your delivery status</string>
+    <string name="shipping">Continue Shipping</string>
+    <!--    empty cart-->
+    <string name="emptyCart">Hey, It feel so lite</string>
+    <string name="dEmptyCart">There is nothing in your cart. Let\'s add some items</string>
+    <string name="popular">Popular on Ushop</string>
+    <string name="cart">Cart</string>
+    <!--    fragment product details-->
+    <string name="colour">Colours</string>
+    <string name="size">Size</string>
+    <string name="buy">Buy Now</string>
+    <string name="addToCart">Add To Cart</string>
+    <string name="similarProduct">Similar Products</string>
+    <string name="productDetails">Product Details</string>
+    <!--    fragment Accessories-->
+    <string name="accessories">Accessories</string>
+</resources>

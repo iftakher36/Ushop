@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xiaofeng.android:flowlayoutmanager:1.2.3.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a053842ffbb039db682af18481a6fd7/jetified-flowlayoutmanager-1.2.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a053842ffbb039db682af18481a6fd7/jetified-flowlayoutmanager-1.2.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a053842ffbb039db682af18481a6fd7/jetified-flowlayoutmanager-1.2.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d388011c1461b89d806683796d08ee5c/jetified-flowlayoutmanager-1.2.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d388011c1461b89d806683796d08ee5c/jetified-flowlayoutmanager-1.2.3.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d388011c1461b89d806683796d08ee5c/jetified-flowlayoutmanager-1.2.3.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4e7786361ed9fdbd7dc9c022f9d4b53/jetified-flowlayoutmanager-1.2.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4e7786361ed9fdbd7dc9c022f9d4b53/jetified-flowlayoutmanager-1.2.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b4e7786361ed9fdbd7dc9c022f9d4b53/jetified-flowlayoutmanager-1.2.3.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b4bbaf5ca5baae99c27884537dbede3/jetified-flowlayoutmanager-1.2.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b4bbaf5ca5baae99c27884537dbede3/jetified-flowlayoutmanager-1.2.3.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5b4bbaf5ca5baae99c27884537dbede3/jetified-flowlayoutmanager-1.2.3.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/742b281a871bcef75d305045f1902a1b/jetified-flowlayoutmanager-1.2.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/742b281a871bcef75d305045f1902a1b/jetified-flowlayoutmanager-1.2.3.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/742b281a871bcef75d305045f1902a1b/jetified-flowlayoutmanager-1.2.3.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xiaofeng.android/flowlayoutmanager/1.2.3.2/ea966ee42687c428b95db0e1f5f2fe55471c2bc8/flowlayoutmanager-1.2.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xiaofeng.android/flowlayoutmanager/1.2.3.2/72bff91decf210f6dbe87e1fa79b394ac7f5b7bb/flowlayoutmanager-1.2.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
